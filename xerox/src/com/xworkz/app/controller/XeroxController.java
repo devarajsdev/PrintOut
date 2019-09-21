@@ -23,6 +23,7 @@ public class XeroxController {
 		map.addAttribute("copy",dto.getNoOfCopies());
 		map.addAttribute("pages",dto.getNoOfPages());
 		map.addAttribute("type", dto.getPrintout());
+		System.out.println("Success page is Success");
 		return "Success";
 		
 	}
