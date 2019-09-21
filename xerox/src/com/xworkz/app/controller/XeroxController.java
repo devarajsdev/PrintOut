@@ -13,6 +13,7 @@ public class XeroxController {
 
 	public XeroxController() {
 		System.out.println("created "+this.getClass().getSimpleName());
+		System.out.println("welcome to xworkz");
 	}
 	
 	@RequestMapping(value="/order.xworkz", method=RequestMethod.POST)
