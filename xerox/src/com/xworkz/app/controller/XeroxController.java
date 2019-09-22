@@ -20,6 +20,7 @@ public class XeroxController {
 	public String onOrder(XeroxDTO dto,ModelMap map){
 		System.out.println("created onOrder");
 		System.out.println("form binding"+dto);
+		System.out.println("karnataka");
 		map.addAttribute("name",dto.getName());
 		map.addAttribute("copy",dto.getNoOfCopies());
 		map.addAttribute("pages",dto.getNoOfPages());
